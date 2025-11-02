@@ -1,0 +1,14 @@
+@use 'variables';
+@use 'mixins';
+@use 'base';
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: variables.$mainFont;
+    margin: 0;
+}
+

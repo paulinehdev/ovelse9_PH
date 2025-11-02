@@ -1,0 +1,19 @@
+//Seksjon med grid for tre kategorier
+@mixin gridPlacement($column, $row){
+    grid-column: #{$column};
+    grid-row: #{$row};
+}
+
+//Seksjon med nyheter og scroll-vindu
+@mixin scrollFunction(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+//Seksjon med populære kategorier
+@mixin categoryPlacement(){
+    display: flex;
+    flex-wrap: wrap;
+}
